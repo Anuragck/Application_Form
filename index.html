@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="headings">
+        <h3><u>NATIONAL SKILL TRAINING INSTITUTE,CALICUT</h3>
+        <H3>APPLICATION FOR AITT CITS/CTS ADMISSION</u></H3>
+        <H3>(TO BE FILLED IN CAPITAL LETTERS ONLY)</H3>
+        </div>
+    
+    <form>
+        <h3><u>PERSONAL DETAILS</u></h3>
+        <table class="f-page">
+            <tr>
+                <td>Admission fee submitted * </td>
+                <td>Yes<input type="radio" name="fee">  </td>
+                <td>No<input type="radio" name="fee">  </td>
+                <td>Not Applicable<input type="radio" name="fee">  </td>
+            </tr>
+            <tr>
+                <td>Trade</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Whether ITI Passed *</td>
+                <td>Yes<input type="radio" name="pass">  </td>
+                <td>No<input type="radio" name="pass">  </td>
+
+                <td>Is Diploma Holder *</td>
+                <td>Yes<input type="radio" name="diploma">  </td>
+                <td>No<input type="radio" name="diploma">  </td>
+            </tr>
+            <tr>
+                <td>Trainee Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>D O B *</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Father/Spouse/Guardian Name * </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Mother's Name * </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Gender *</td>
+                <td>Male<input type="radio" name="Gender">  </td>
+                <td>Female<input type="radio" name="Gender">  </td>
+                <td>Other<input type="radio" name="Gender">  </td>
+
+                <td>Category *</td>
+                <td>GEN<input type="radio" name="Category">  </td>
+                <td>OBC<input type="radio" name="Category">  </td>
+                <td>SC<input type="radio" name="Category">  </td>
+                <td>ST<input type="radio" name="Category">  </td>
+            </tr>
+            <tr>
+                <td>Physically Handicap</td>
+                <td>Yes<input type="radio" name="Handicap">  </td>
+                <td>No<input type="radio" name="Handicap">  </td>
+            </tr>
+            <tr>
+                <td>Trainee Type *</td>
+                <td>Sponsored<input type="radio" name="Trainee-type">  </td>
+                <td>Private<input type="radio" name="Trainee-type">  </td>
+
+                <td>Employee Code(PEN)</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>UID Number (Aadhar Number) *</td>
+                <td><input type="text"></td>
+
+                <td>Marital Status *</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email ID (Capital Letters) *</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Mobile Number *</td>
+                <td><input type="tel" name="phone" pattern="[0-9]{10}" required></td>
+            </tr>
+        
+        </table>
+        
+       
+    </form>
+    <form>
+        <h3 class="address"><u>PERMANENT ADDRESS *</u></h3>
+        <table class="f-page">
+            <tr>
+                <td>Recent Photo</td>
+                <td><input type="file" name="fileUpload"></td>
+            </tr>
+            <tr>
+                <td>House Name / No</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Post / Village</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>District</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Pin</td>
+                <td><input type="tel" name="pin" pattern="[0-9]{6}" required></td>
+            </tr>
+            <tr>
+                <td>Mobile </td>
+                <td><input type="tel" name="phone" pattern="[0-9]{10}" required></td>
+            </tr>
+    
+    </table>
+    
+        <h3><u>CORRESPONDENCE ADDRESS</u></h3>
+        <table class="f-page">
+            <tr>
+                <td><input type="radio" name="c-address">Same as Permanent Address</td>
+            </tr>
+            <tr>
+                <td>House Name / No</td>
+                <td><input type="text"></td>
+                <td>Post / Village</td>
+                <td><input type="text"></td>
+                <td>District</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                 
+                <td>State</td>
+                <td><input type="text"></td>
+                <td>Pin</td>
+                <td><input type="tel" name="pin" pattern="[0-9]{6}" required></td>
+                <td>Mobile </td>
+                <td><input type="tel" name="phone" pattern="[0-9]{10}" required></td>
+            </tr>
+            </table>
+
+
+            <h3 class="qh"><u>QUALIFICATION DETAILS *</u></h3>
+            <h4><u>Academic Qualification Details</u></h4>
+            <table class="s-page" border="1px solid">
+            
+            <tr>
+                <th>S.No</th>    
+                <th>Examination Passed</th>
+                <th>School/Board/University Name</th>
+                <th>Year Of Passing</th>
+                <th>Subject (Opted)</th>
+                <th>Percentage Of Mark</th>
+                <th>Grade</th>
+
+                <tr><td><input type="text" class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                            <td><input type="text"class="input-border"></td>
+                            <td><input type="text"class="input-border"></td>
+                            <td><input type="text"class="input-border"></td>
+                            <td><input type="text"class="input-border"></td></tr>
+                <tr><td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td></tr>
+                
+                <tr><td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td></tr>
+
+                    <tr><td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td></tr>
+
+                            
+            </tr>
+        </table>
+
+        <h4><u>Technical Qualification Details *</u></h4>
+            <table class="s-page" border="1px solid">
+            
+            <tr>
+                <th>S.No</th>    
+                <th>Certificate/Diploma <br>Examination Passed</th>
+                <th>Name of University/<br>
+                Institute/Counsil</th>
+                <th>Trading Batch</th>
+                <th>Certificate <br>No</th>
+                <th>Year of Passing</th>
+                <th>Duration(Months)</th>
+                <th>% of Mark</th>
+                <th>Grade</th>
+
+                <tr><td><input type="text" class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                            <td><input type="text"class="input-border"></td>
+                            <td><input type="text"class="input-border"></td>
+                            <td><input type="text"class="input-border"></td>
+                            <td><input type="text"class="input-border"></td>
+                            <td><input type="text"class="input-border"></td>
+                            <td><input type="text"class="input-border"></td></tr>
+                <tr><td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td></tr>
+                
+                <tr><td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td></tr>
+
+                    <tr><td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td></tr>
+
+                        
+
+                            
+            </tr>
+        </table>
+
+        <h4><u>Experience Details *</u></h4>
+            <table class="s-page" border="1px solid">
+            
+            <tr>
+                <th>S.No</th>    
+                <th>Name Of Employer</th>
+                <th>Nature Of Job</th>
+                <th>From Date <br>(DD/MM/YYYY)</th>
+                <th>To Date<br> (DD/MM/YYYY)</th>
+                <th>Designation</th>
+                <th>Current Employer Status<br>(Tick Last Employer)</th>
+                
+
+                <tr><td><input type="text" class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                            <td><input type="text"class="input-border"></td>
+                            <td><input type="text"class="input-border"></td>
+                            <td><input type="text"class="input-border"></td>
+                            <td><center><input type="radio"name="emp"></center></td></tr>
+                <tr><td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><input type="text"class="input-border"></td>
+                <td><center><input type="radio"name="emp"></center></td></tr>
+                
+                <tr><td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><input type="text"class="input-border"></td>
+                    <td><center><input type="radio"name="emp"></center></td></tr>
+
+                    <tr><td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><input type="text"class="input-border"></td>
+                        <td><center><input type="radio"name="emp"></center></td></tr>
+
+                            
+            </tr>
+        </table>
+        <hr class="hr1">
+        <h3 class="qh">SPONSOR DETAILS *(Filled by Govt/Pvt Deputed Only)</h3><br>
+        <table class="f-page">
+            <tr>
+                <td>Sponsor Name</td>
+                <td><input type="text"></td>
+                <td>Sponsor Type</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Contact Person Name</td>
+                <td><input type="text"></td>
+                <td>Contact Person Phone </td>
+                <td><input type="tel" name="phone" pattern="[0-9]{10}" required></td>
+            </tr>
+            <tr>
+                <td>Sponsor ITI Code</td>
+                <td><input type="text"></td>
+                <td>Sponsor ITI Name</td>
+                <td><input type="text"></td>
+            </tr>
+           
+        </table>
+        <h4><u>SPONSOR ADDRESS</u></h4>
+        <table class="f-page">
+            <tr>
+                <td>Address</td>
+                <td><input type="text"></td>
+                <td>District</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><input type="text"></td>
+                <td>Phone / Mob </td>
+                <td><input type="tel" name="phone" pattern="[0-9]{10}" required></td>
+                <td>Pin Code</td>
+                <td><input type="tel" name="pin" pattern="[0-9]{6}" required></td>
+            </tr>
+
+        </table>
+          </form> 
+          <p><center>( * Marked are Mandatory )</center></p>
+          <hr class="footer-hr">
+   
+    
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+.headings{
+    text-align: center;
+    
+}
+
+form{
+    padding:2% 2% 2% 2%;
+}
+
+.f-page{
+    
+    border-spacing: 1.8rem 1.5rem;
+  }
+
+.address{
+    text-align: center;
+}
+
+
+.qh{
+    text-align: center;
+}
+.s-page{
+    
+        border-collapse: collapse;
+
+                 
+}
+.input-border{
+    border:0px;
+    outline: none;
+}
+.hr1{
+    margin-top: 2rem;
+    width: 100%;
+    border-top: 2px solid black;
+}
+.footer-hr{
+    width: 100%;
+    border: dotted 4px;
+    border-bottom: none;
+     
+}
+
+
+
+  
+  
